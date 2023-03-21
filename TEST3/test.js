@@ -5,14 +5,14 @@ describe('Mathematical Operations - Test Suite', function(){
     var a = 10;
     var b = 10;
 
-    it.only('Addtion of two numbers', function(){
+    it.skip('Addtion of two numbers', function(){
 
         var c = a + b;
 
         assert.equal(c,20)
     });
 
-    it.only('Substraction of two numbers', function(){
+    it('Substraction of two numbers', function(){
 
         var c = a - b;
 
@@ -32,6 +32,8 @@ describe('Mathematical Operations - Test Suite', function(){
 
         assert.equal(c,1)
     });
+
+    it('This is a test for Pending Test Feature')
 })
 
 // add commit PR
